@@ -7,3 +7,8 @@ let config = {
 }
 
 let game = new Phaser.Game(config);
+
+// set UI sizes
+let boarderUISize = game.config.height / 15;
+let boarderPadding = boarderUISize / 3;
+let starSpeed = 4;
